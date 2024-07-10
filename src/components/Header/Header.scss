@@ -1,0 +1,19 @@
+header {
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      list-style: none;
+      height: 65px;
+      li {
+        padding: 0 10px;
+      }
+    }
+  }
+}
+

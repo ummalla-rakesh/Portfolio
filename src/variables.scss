@@ -1,0 +1,6 @@
+$background-color: #ffff;
+$color: #070707ee;
+[data-theme="dark"] {
+  $background-color: hsl(0, 0%, 0%);
+  $color: #ffff;
+}
